@@ -1,0 +1,74 @@
+[
+  {
+    "productTitle": "Lenovo Thinkpad E15 G4 - 21E600CDMB Azerty",
+    "price": "1149",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "1 review"
+  },
+  {
+    "productTitle": "Acer Nitro 5 (AN515-45-R9UW) Azerty",
+    "price": "1499",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "AMD Ryzen 7",
+    "memory": "16",
+    "review": "0 reviews"
+  },
+  {
+    "productTitle": "HP ProBook 450 G10 - 85B82EA Azerty",
+    "price": "1229",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "0 reviews"
+  },
+  {
+    "productTitle": "MSI Katana 15 B12VFK-1232BE",
+    "price": "1299",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "1 review"
+  },
+  {
+    "productTitle": "HP EliteBook 650 G10 - 85A97EA Azerty",
+    "price": "1479",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "0 reviews"
+  },
+  {
+    "productTitle": "HP Laptop 15s-eq2112nb Azerty",
+    "price": "649",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "AMD Ryzen 7",
+    "memory": "16",
+    "review": "5 reviews"
+  },
+  {
+    "productTitle": "HP ENVY x360 OLED 13-bf0020nb Azerty",
+    "price": "1299",
+    "available": "Morgen geleverd",
+    "inches": "13,3 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "2 reviews"
+  },
+  {
+    "productTitle": "HP Pavilion 15-eg2049nb Azerty",
+    "price": "949",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "Intel Core i7",
+    "memory": "16",
+    "review": "19 reviews"
+  }
+]
