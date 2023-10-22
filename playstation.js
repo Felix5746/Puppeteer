@@ -12,12 +12,11 @@ async function scrapePlaystations() {
   
 
   const products = await page.$$eval('.product-card', (rows) => {
-    return rows.map((row) => {
-      
-      const priceText = row.querySelector('.sales-price__current').textContent.trim().split(',')
+    return rows.map((row) => {    
+     
       return {
         productTitle: row.querySelector('.product-card__title').textContent.trim(),
-        price: priceText[0].trim().replace(/\./g, ''),
+        price: row.querySelector('.sales-price__current').textContent.replace(/[.,-]/g, ''),
         available: (row.querySelector('.icon-with-text__text') != null)
           ? row.querySelector('.icon-with-text__text').textContent.trim()
           : row.querySelector('.color--unavailable').textContent.trim(),       

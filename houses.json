@@ -64,14 +64,7 @@
   },
   {
     "titel": "Huis te koop",
-    "prijs": "Neem contact op",
-    "stad": "2440 Geel",
-    "straat": "Patronaatstraat 36",
-    "EPC": "B"
-  },
-  {
-    "titel": "Huis te koop",
-    "prijs": "499000",
+    "prijs": "475000",
     "stad": "2440 Geel",
     "straat": "Djepstraat 30",
     "EPC": "A"
@@ -89,13 +82,6 @@
     "stad": "2440 Geel",
     "straat": "Laar 123",
     "EPC": "A"
-  },
-  {
-    "titel": "Huis te koop",
-    "prijs": "279000",
-    "stad": "2440 Geel",
-    "straat": "Schuttershof 5",
-    "EPC": "C"
   },
   {
     "titel": "Huis te koop",
@@ -137,6 +123,13 @@
     "prijs": "475000",
     "stad": "2440 Geel",
     "straat": "Schaapsdijk 24",
+    "EPC": "B"
+  },
+  {
+    "titel": "Huis te koop",
+    "prijs": "495000",
+    "stad": "2440 Geel",
+    "straat": "Zwaluwenstraat 25",
     "EPC": "B"
   }
 ]

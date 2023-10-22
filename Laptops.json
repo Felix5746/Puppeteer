@@ -36,8 +36,8 @@
     "review": "1 review"
   },
   {
-    "productTitle": "HP EliteBook 650 G10 - 85A97EA Azerty",
-    "price": "1479",
+    "productTitle": "HP ENVY x360 15-fe0021nb Azerty",
+    "price": "1299",
     "available": "Morgen geleverd",
     "inches": "15,6 inch",
     "processor": "Intel Core i7",
@@ -45,13 +45,13 @@
     "review": "0 reviews"
   },
   {
-    "productTitle": "HP Laptop 15s-eq2112nb Azerty",
-    "price": "649",
+    "productTitle": "Apple MacBook Air (2022) Apple M2 (8 core CPU/8 core GPU) 8GB/256GB Space Gray Azerty",
+    "price": "1299",
     "available": "Morgen geleverd",
-    "inches": "15,6 inch",
-    "processor": "AMD Ryzen 7",
-    "memory": "16",
-    "review": "5 reviews"
+    "inches": "13,6 inch",
+    "processor": "Apple M2-chip",
+    "memory": "8",
+    "review": "243 reviews"
   },
   {
     "productTitle": "HP ENVY x360 OLED 13-bf0020nb Azerty",
@@ -61,6 +61,15 @@
     "processor": "Intel Core i7",
     "memory": "16",
     "review": "2 reviews"
+  },
+  {
+    "productTitle": "HP Laptop 15s-eq2112nb Azerty",
+    "price": "649",
+    "available": "Morgen geleverd",
+    "inches": "15,6 inch",
+    "processor": "AMD Ryzen 7",
+    "memory": "16",
+    "review": "5 reviews"
   },
   {
     "productTitle": "HP Pavilion 15-eg2049nb Azerty",

@@ -17,16 +17,19 @@ async function scrapeLaptops() {
       const inchesParts = specs[0].textContent.trim().split('\n');
       const processorParts = specs[1].textContent.trim().split('\n');
       const memoryParts = specs[2].textContent.trim().split(' ');
-      const priceText = row.querySelector('.sales-price__current').textContent.trim().split(',')
+      
       return {
         productTitle: row.querySelector('.product-card__title').textContent.trim(),
-        price: priceText[0].trim().replace(/\./g, ''),
+        price: row.querySelector('.sales-price__current').textContent.trim().replace(/[.,-]/g, ''),
         available: (row.querySelector('.icon-with-text__text') != null)
           ? row.querySelector('.icon-with-text__text').textContent.trim()
           : row.querySelector('.color--unavailable').textContent.trim(),
         inches: inchesParts[0],
         processor: processorParts[0],
         memory: memoryParts[0],
+        available: (row.querySelector('.icon-with-text__text') != null)
+          ? row.querySelector('.icon-with-text__text').textContent.trim()
+          : row.querySelector('.color--unavailable').textContent.trim(),    
         review: row.querySelector('.review-rating__reviews').textContent.trim(),
       };
     });
@@ -34,7 +37,7 @@ async function scrapeLaptops() {
 
 
   const filteredProducts = products.filter((product) => {
-    return parseInt(product.price) < 1500 && (product.processor.includes('7') || product.processor.includes('9')) && parseInt(product.memory) >= 16
+    return parseInt(product.price) < 1500 && (product.processor.includes('i7') || product.processor.includes('Ryzen 9') || product.processor.includes('Ryzen 7') || product.processor.includes('M2')) && parseInt(product.memory) >= 8
   });
 
   
